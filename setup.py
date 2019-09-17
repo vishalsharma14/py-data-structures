@@ -1,0 +1,25 @@
+from distutils.core import setup
+setup(
+  name='py-data-structures',
+  packages=['data_structures'],
+  version='0.1',
+  license='MIT',
+  description='Basic data structures with all operations',
+  author='Vishal',
+  author_email='vishal.sharma9597@gmail.com',
+  url='https://github.com/vishalsharma14/py-data-structures',
+  # download_url='https://github.com/vishalsharma14/py-data-structures/v_01.tar.gz',
+  keywords=['DATA STRUCTURES', 'STACK', 'QUEUE'],
+  install_requires=[],
+  classifiers=[
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Topic :: Software Development :: Build Tools',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+  ],
+)

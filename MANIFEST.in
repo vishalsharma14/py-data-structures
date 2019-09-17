@@ -1,0 +1,2 @@
+include *.rst *.txt
+recursive-include data-structures *.py *.pyx *.pxd *.c
