@@ -2,6 +2,10 @@
 from data_structures.exceptions import EmptyStackException
 
 
+TOP_ITEM_INDEX = -1
+EMPTY_STACK_LENGTH = 0
+
+
 class Stack(object):
     """
         Class representing Stack Data Structure (LIFO)
@@ -25,7 +29,7 @@ class Stack(object):
                 else Top item
         """
         if self.length > 0:
-            return self._elements[-1]
+            return self._elements[TOP_ITEM_INDEX]
         else:
             raise EmptyStackException
 
@@ -42,7 +46,7 @@ class Stack(object):
             :return: EmptyStackException if stack is empty
                 else Top item
         """
-        if self.length > 0:
+        if self.length > EMPTY_STACK_LENGTH:
             return self._elements.pop()
         else:
             raise EmptyStackException
