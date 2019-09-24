@@ -30,3 +30,27 @@ class Queue(object):
         if self.length > 0:
             return self._elements[-1]
         raise EmptyQueueException
+
+    @property
+    def first_item(self):
+        """
+            If Queue is not empty: returns first item
+            else: raise EmptyQueueException
+        """
+        if self.length > 0:
+            return self._elements[0]
+        raise EmptyQueueException
+
+    def dequeue(self):
+        """
+            Pops an item from the start of queue
+        """
+        if self.length <= 0:
+            raise EmptyQueueException
+        return self._elements.popleft()
+
+    def iterate(self):
+        """
+            override to perform an operation on the queue
+        """
+        return self
