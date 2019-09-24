@@ -9,7 +9,7 @@ with open('README.md') as description_file:
 setup(
     name='py-data-structures',
     packages=['data_structures'],
-    version='0.1.2',
+    version='0.2',
     license='MIT',
     description='Some widely used data structures',
     long_description=long_description,
