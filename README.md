@@ -1,6 +1,7 @@
 # py-data-structures
 
 Python implementation of abstract data structures
+[[PyPI Link](https://pypi.org/project/py-data-structures/)]
 
 ## Install
 ```
